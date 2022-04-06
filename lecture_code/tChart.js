@@ -23,6 +23,6 @@ console.log("This is a different change")
 
 // Logical operators
 
-AND operator
-OR operator
-NOT operator
+// AND operator
+// OR operator
+// NOT operator
