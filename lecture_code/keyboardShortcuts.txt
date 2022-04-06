@@ -36,3 +36,4 @@ UnIndent:               Shift + Tab          | Shift + Tab   // you can unindent
 Close editor:           Ctrl + w             | Cmd + w
 Toggle explorer:        Ctrl + b             | Cmd + b
 Toggle terminal:        Ctrl + `             | Ctrl + `
+Comment Line:           Ctrl + /             | Cmd + /
