@@ -64,5 +64,3 @@
  9. Make sure you choose the public option if you want your instructor (or anyone else) to be able to view your repo on Github.
  10. After it's done pushing, you can view your repo on Github.
 
-
-# I really like pizza
