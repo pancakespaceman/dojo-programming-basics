@@ -1,0 +1,53 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: dodgerblue;
+  background-color: darkred;
+  /* display: inline-block; */
+}
+
+a {
+  background-color: orangered;
+  display: block;
+}
+
+button {
+  /* display: block; */
+}
+
+div {
+  background-color: fuchsia;
+}
+
+.content {
+  background-color: green;
+  display: inline-block;
+  padding: 20px;
+  margin: 0px auto;
+  border: 10px solid yellow;
+  vertical-align: top;
+}
+
+#other-div {
+  margin-bottom: 50px;
+}
+
+#demo {
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.demo-class {
+  width: 400px;
+  margin: 0px auto;
+}
+
+#loginpage {
+  padding: 20px;
+  margin-top: 20px;
+}
+
