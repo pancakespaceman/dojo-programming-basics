@@ -37,15 +37,40 @@ var numArr3 = [3, -5, 2, -7, 8, 10, -2, 6, -4];
 // 4. Iterate and Print Array
 // Iterate through a given array, printing each value.
 // PrintArrayVals(arr)
+function printArrayVals(arr) {
+  for (var i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+  }
+}
 
 
 // 5. Find and Print Max
 // PrintMaxOfArray(arr)
 // Given an array, find and print its largest element.
+function printMaxOfArray(arr) {
+  var maxNum = arr[i];
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] > maxNum) {
+      maxNum = arr[i];
+    }
+  }
+
+  console.log(maxNum)
+}
+
 
 // 6. Get and Print Average
 // PrintAverageOfArray(arr)
 // Analyze an array’s values and print the average.
+function printAverageOfArray(arr) {
+  var sum = 0;
+  for (var i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+
+  console.log("The average is:", sum / arr.length)
+}
+
 
 // 7. Array with Odds
 // ReturnOddsArray1To255()
