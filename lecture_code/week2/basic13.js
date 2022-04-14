@@ -71,14 +71,37 @@ function printAverageOfArray(arr) {
   console.log("The average is:", sum / arr.length)
 }
 
+var arr = [2, 5, 3, 1, 2]
+var arr = [2, 5, 3, 1, 2, 3]
+var arr = [2, 5, 3, -1, 2, 3]
 
 // 7. Array with Odds
 // ReturnOddsArray1To255()
 // Create an array with all the odd integers between 1 and 255 (inclusive).
+function ReturnOddsArray1To255() {
+  var newArr = []
+  for (var i = 1; i <= 255; i++) {
+      if (i % 2 !== 0) {
+          newArr.push(i);
+
+      }
+  }
+  return newArr
+}
 
 // 8. Square the Values
 // SquareArrayVals(arr)
 // Square each value in a given array, returning that same array with changed values.
+// var arr = [2, 5, 3, 1, 2]
+// output: [4, 25, 9, 1, 4]
+function squareArrayVals(arr) {
+  for (var i = 0; i < arr.length; i++) {
+    arr[i] = arr[i] ** 2;
+  }
+
+  return arr;
+}
+
 
 // 9. Greater than Y
 // ReturnArrayCountGreaterThanY(arr, y)
@@ -87,6 +110,8 @@ function printAverageOfArray(arr) {
 // 10. Zero Out Negative Numbers
 // ZeroOutArrayNegativeVals(arr)
 // Return the given array, after setting any negative values to zero
+// var numArr3 = [3, -5, 2, -7, 8, 10, -2, 6, -4];
+// output:  [3, 0, 2, 0, 8, 10, 0, 6, 0];
 
 // 11. Max, Min, Average
 // PrintMaxMinAverageArrayVals(arr)
@@ -95,7 +120,11 @@ function printAverageOfArray(arr) {
 // 12. Shift Array Values
 // ShiftArrayValsLeft(arr)
 // Given an array, move all values forward (to the left) by one index, dropping the first value and leaving a 0 (zero) value at the end of the array.
+// var arr = [2, 5, 3, 1, 2]
+// output: [5, 3, 1, 2, 0]
 
 // 13. Swap String For Array Negative Values
 // SwapStringForArrayNegativeVals(arr)
 // Given an array of numbers, replace any negative values with the string 'Dojo'.
+// var numArr3 = [3, -5, 2, -7, 8, 10, -2, 6, -4];
+// output: [3, "Dojo", 2, "Dojo", 8, 10, "Dojo", 6, "Dojo"];
