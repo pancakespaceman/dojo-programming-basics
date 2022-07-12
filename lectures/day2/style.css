@@ -1,0 +1,23 @@
+/* use HTML tags as CSS selectors */
+p {
+  color: green;
+}
+
+li {
+  color: blue;
+}
+ul {
+  border: 5px dotted turquoise;
+}
+
+/* classes are referred to with a period in front  */
+/* classes can be reused as many times as we want */
+.myClass {
+  color: rebeccapurple;
+}
+
+/* ids are referred to with a # in front */
+/* only one HTML element can have this id */
+#myFavorite {
+  font-weight: bolder;
+}
