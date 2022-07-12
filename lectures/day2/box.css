@@ -1,0 +1,36 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  background-color: red;
+  border: 5px solid aquamarine;
+  padding: 20px;
+  margin: 100px;
+}
+
+h2 {
+  background-color: blanchedalmond;
+}
+
+p {
+  background-color: rebeccapurple;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+a {
+  background-color: aqua;
+  display: block;
+}
+
+div {
+  border: 1px solid red;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.inline-block {
+  display: inline-block;
+}
