@@ -1,0 +1,47 @@
+body {
+  background-image: url("tacos.jpg");
+  background-position: top left;
+}
+
+h1 {
+  color: blue;
+}
+
+li {
+  text-decoration: underline;
+  list-style-type: none;
+}
+
+p {
+  background-color: blanchedalmond;
+}
+
+/* This is a class */
+/* We target classes by prefixing them with a period */
+.test-class {
+  background-color: black;
+  color: white;
+}
+
+.big-border {
+  border: 10px solid magenta;
+}
+
+.dotted {
+  border-style: dotted;
+}
+
+/* This is a id */
+/* We target ids by prefixing them with a # */
+/* id can be applied to ONLY one thing */
+#title {
+  background-color: rebeccapurple;
+  color: gold;
+  font-family: cursive;
+  margin-bottom: 100px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
