@@ -1,0 +1,90 @@
+/* Wild Card / Everything selector */
+* {
+  font-family: fantasy;
+  padding: 0px;
+  margin: 0px;
+  color:  orange
+}
+
+/* CSS SELECTORS */
+
+/*  HTML tag itself */
+/* this will target all tags of that kind */
+img {
+  height: 250px;
+  display: block;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  background-color: gray;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20pt;
+  color: aliceblue;
+  /* This background color will overwrite the previous */
+  /* this is the cascade part of CSS */
+  background-color: maroon;
+}
+
+div {
+  background-color: violet;
+}
+
+
+/* Classes */
+/* CSS will apply to any html tag with this class */
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+/* Ids */
+/* Same as classes but for only one tag */
+#title {
+  background-color: wheat;
+  text-align: center;
+}
+
+#thisone {
+  background-color: crimson;
+  height: 100px;
+}
+
+#thatone {
+  background-color: peachpuff;
+  height: 100px;
+}
+
+#parent {
+  padding: 20px;
+  border: 2px solid darkgoldenrod;
+}
+
+/* #left, #right { */
+.boxes {
+  padding: 10px;
+  background-color: wheat;
+  border: 1px solid red;
+  /* display: inline-block; */
+  width: 500px;
+  /* vertical-align: top; */
+
+  /* Specifc sides */
+  /* margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px; */
+
+  /* Shorthand */
+  /* margin: 20px 20px 20px 0px; */
+  /* margin: 20px 30px; -> top/bot = 20, r/l = 30 */
+}
