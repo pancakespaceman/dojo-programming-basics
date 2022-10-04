@@ -1,0 +1,53 @@
+/* HTML selectors */
+p {
+  font-family: 'Comic Sans MS'
+}
+
+h1 {
+  background-color: tomato;
+}
+
+h3 {
+  background-color: greenyellow; 
+  color: maroon;
+}
+
+/* Classes */
+/* We can write any CSS like the HTML selectors */
+/* The CSS applies to any HTML tag we add the class to */
+/* we can put classes on any HTML tag */
+/* AND we can put them on as many as we want */
+/* Classes we prefix with period (a dot) in our CSS file */
+/* HTML elements can have as many classes as we want */
+
+.bg-blue {
+  background-color: royalblue;
+}
+
+.font-fantasy {
+  font-family: fantasy;
+}
+
+/* IDs */
+/* We can write any CSS like the HTML selectors */
+/* The CSS applies to any HTML tag we add the id to */
+/* And ID can ONLY BE USED ONCE */
+/* That CSS overrides all other CSS */
+/* ID we prefix with a hashtag (#) in our CSS file*/
+
+#title {
+  font-size: 24pt; 
+  font-weight: bolder;
+  background-color: firebrick;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Wildcard selector */
+/* It has the least strength */
+/* It targets everything */
+/* the selector is a single asterisk */
+* {
+  background-color: yellow;
+  color:aqua;
+  margin: 0;
+}
