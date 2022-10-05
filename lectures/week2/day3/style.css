@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0; 
+  background-color: black;
+  color: whitesmoke;
+}
+
+.p {
+  padding: 10px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+#navbar {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  background-color: coral;
+  padding: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  list-style-type: none;
+}
+
+#nav-search {
+  width: 20%;
+}
