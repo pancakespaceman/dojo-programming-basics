@@ -101,3 +101,14 @@ function addTwoNums(a, b) {
 
 var sum = addTwoNums(1, 3) - addTwoNums(5, 76)
 console.log(sum)
+
+
+var num = 15;
+console.log(num);
+function logAndReturn(num){
+   console.log(num);   
+   return num;
+}
+var result = logAndReturn(10);
+console.log(result);
+console.log(num);
